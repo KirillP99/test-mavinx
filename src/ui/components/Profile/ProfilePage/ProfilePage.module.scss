@@ -1,0 +1,15 @@
+.ProfilePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__LinkReturn {
+    background: grey;
+    color: white;
+    border-radius: 2px;
+    padding: 12px 83px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

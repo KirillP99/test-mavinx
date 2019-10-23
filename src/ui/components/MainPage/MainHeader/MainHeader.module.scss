@@ -1,0 +1,86 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  &__Part {
+    display: flex;
+    align-items: center;
+  }
+  &__Logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-right: 1px solid grey;
+    padding: 7px 16px 7px 0;
+  }
+  &__Search {
+    width: 200px;
+    height: 12px;
+    margin-left: 20px;
+    border: none;
+  }
+  &__Items {
+    display: flex;
+  }
+  &__Item {
+    list-style: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 12px;
+  }
+  &__Item:last-child {
+    margin-right: 12px;
+  }
+  &__Button {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 7px 16px;
+  }
+  &__UserButton {
+    background: grey;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 15px;
+    margin-left: 23px;
+  }
+  &__UserButton:focus, &__Search:focus, &__Logout:focus {
+    outline: none;
+  }
+  &__UserButton:hover, &__Logout:hover {
+    cursor: pointer;
+  }
+  &__Profile {
+    position: relative;
+  }
+  &__Dropdown {
+    display: none;
+    position: absolute;
+    left: -7px;
+  }
+  &__DropdownOpen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: grey;
+  }
+  &__ProfileLink {
+    color: white;
+    padding: 12px;
+    border-bottom: 1px solid;
+    text-decoration: none;
+  }
+  &__Logout {
+    background: none;
+    color: white;
+    border: none;
+    margin-top: 12px;
+  }
+}

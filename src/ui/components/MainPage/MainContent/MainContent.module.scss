@@ -1,0 +1,41 @@
+.List {
+  width: 60%;
+  &__Title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  &__Title span {
+    font-weight: normal;
+  }
+  &__Item {
+    display: flex;
+    width: 90%;
+    margin: 54px 0;
+  }
+  &__Desc {
+    padding-right: 50px;
+    border-right: 1px solid grey;
+  }
+  &__Total {
+    padding-left: 50px;
+  }
+  &__Tags {
+    margin-bottom: 0;
+  }
+  &__Span {
+    margin-right: 12px;
+  }
+  &__ItemTitle {
+    margin-top: 0;
+  }
+  &__Total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__Total p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}

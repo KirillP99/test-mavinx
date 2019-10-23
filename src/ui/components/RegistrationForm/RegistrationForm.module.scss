@@ -1,0 +1,38 @@
+.Title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__Input {
+    border: none;
+    border-bottom: 1px solid;
+    width: 400px;
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+  &__Input:focus {
+    outline: none;
+  }
+  &__ErrorMessage {
+    color: red;
+    margin-left: 12px;
+    font-size: 9px;
+  }
+  &__Button {
+    border: none;
+    background: grey;
+    color: white;
+    border-radius: 2px;
+    padding: 12px 83px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &__Button:hover {
+    cursor: pointer;
+  }
+}
