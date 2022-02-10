@@ -23,7 +23,7 @@
     "eslint-plugin-react": "^7.12.4",
     "final-form": "^4.18.5",
     "immutable": "^4.0.0-rc.12",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",
     "react-addons-css-transition-group": "^15.6.2",
